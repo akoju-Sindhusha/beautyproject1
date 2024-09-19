@@ -37,6 +37,7 @@ html,body{
    background-size: 100% 100%;
    background-repeat: no-repeat;
    overflow-x: hidden;
+   z-index: 1;
 }
 .ul-list {
    padding: 1%;
@@ -381,6 +382,7 @@ iframe{
    width: 100%;
    height: 80vh;
    filter: invert(100%);
+   z-index: -2;
 }
 
 /* part13 */
@@ -408,7 +410,6 @@ iframe{
     
     margin: -11%;
     position: relative;
-    z-index: 1;
     margin-left: 12%;
     margin-right: 12%;
 }
@@ -428,8 +429,9 @@ iframe{
 .right13 button:hover{
    background-color: pink;
 }
-/* part-14 footer */
 
+
+/* part-14 footer */
 .footer-image{
    height: 10vh;
    margin-top: 70%;
